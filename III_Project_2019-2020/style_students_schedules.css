@@ -1,0 +1,107 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: darkcyan;
+}
+
+.bgimage{
+	background-color: darkcyan;
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+	width: 1300px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 18%;
+  margin-top: 25px;
+	line-height: 25px;
+	float: left;
+  list-style: none;
+  width: 20em;
+}
+
+.leftmenu ul{
+	padding-left: 50px;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+  list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 40%;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 20px;
+	text-transform: uppercase;
+
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+#menu2 {
+  color: white;
+	text-decoration: none;
+}
+#menu2:hover {
+  color: orange;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 20%;
+}
+th,
+td {
+	padding: 6px 15px;
+}
+th {
+	background: #42444e;
+	color: #fff;
+	text-align: left;
+}
+td {
+	border-right: 1px solid #c6c9cc;
+	border-bottom: 1px solid #c6c9cc;
+	background: white;
+}
+td: first-child td: last-child {
+	border-left: 1px solid #c6c9cc;
+	background: white;
+}
+tr:nth-child(even) td{
+	background: white;
+}
+tr:last-child td:first-child {
+	border-bottom-left-radius: 6px;
+	background: white;
+}
+tr:last-child td:first-child {
+	background: white;
+}
+.grades_table {
+	padding-top: 17%;
+  padding-left: 30%;
+}
